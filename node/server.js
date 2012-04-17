@@ -1,5 +1,5 @@
 var http = require('http'),
-  io = require('./socket.io-node'),
+  io = require('socket.io'),
   jsonrpc = require('./jsonrpc/src/jsonrpc');
 
 var server = http.createServer(function(req, res){

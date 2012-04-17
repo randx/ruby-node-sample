@@ -7,6 +7,5 @@ require 'sinatra'
 set :environment, :development
 disable :run, :reload
  
-require 'app'
-
+require File.join(File.dirname(__FILE__), 'app')
 run Sinatra::Application

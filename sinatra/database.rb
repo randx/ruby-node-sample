@@ -9,6 +9,7 @@ configure :development do
     :adapter  => 'mysql',
     :host     => 'localhost',
     :username => 'root' ,
+    :password => '1710' ,
     :database => 'tasks'})  
 end
 
